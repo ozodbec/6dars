@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap");
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+:root {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+}
+body {
+  margin: 0;
+}
+.logo {
+  text-align: start;
+}
+.my-logo {
+  font-size: 28px;
+  font-family: "Pacifico", cursive;
+  display: flex;
+}
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.navbar-list {
+  font-family: "Pacifico", cursive;
+}
+.icons {
+  gap: 8px;
+}
+
+.hero {
+  background-color: #c1dbff;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 4px;
+}
+
+
+.singleproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+}
+
+
