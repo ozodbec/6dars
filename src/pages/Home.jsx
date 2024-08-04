@@ -4,6 +4,7 @@ import React from "react";
 import { castumFetch } from "../utils";
 import Hero from "../components/Hero";
 import { ProductsList } from "../components";
+import { Flex } from "antd";
 
 
 // loader 
@@ -18,10 +19,12 @@ export const loader = async ()=>{
 
 function Home() {
 return(
-  <div>
-    <Hero/>
+ <div>
+   <Hero/>
+  <Flex>
     <ProductsList/>
-  </div>
+  </Flex>
+ </div>
 
 )
 }
